@@ -4,7 +4,7 @@ const { User } = require('../models');
 
 const options = {
   jwtFromRequest: ExtractJwt.fromHeader('authorization'),
-  secretOrKey: 'super-duper-secret-no-one-knows-exactly',
+  secretOrKey: 'secret-key-lala',
 };
 
 passport.use(
