@@ -1,4 +1,4 @@
-Implementasi desain pattern MVC, MRC
+#**Implementasi desain pattern MVC, MRC**
 
 Bagaimana cara penggunaannya?
 
@@ -41,13 +41,13 @@ Penggunaan Type(MCR)
 
 2.  Buat room untuk memulai permainan menggunakan postman dengan endpoint : http://localhost:8000/api/v2/users/create-room
 
-    - masukan data body type JSON :
+    -masukan data body type JSON :
       Request:
       {
       "name": "admin",
       "player1Id": "06896bd4-8cbc-48c6-8c46-9364a6d939c4" (sesuaikan dengan ID player)
       }
-    - dan masukan Authorization di dalam headers menggunakan tokenAccess yang terdapat di response login
+    -dan masukan Authorization di dalam headers menggunakan tokenAccess yang terdapat di response login
 
 3.  Join room untuk player 2(jangan lupa login terlebih dahulu) menggunakan postman dengan endpoint : http://localhost:8000/api/v2/users/join
 
