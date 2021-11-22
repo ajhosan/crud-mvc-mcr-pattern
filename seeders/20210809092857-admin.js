@@ -14,7 +14,7 @@ module.exports = {
         updatedAt: new Date(),
       },
       {
-        id: '06896bd4-8cbc-48c6-8c46-9364a6d939c4',
+        id: '06896bd4-8cbc-48c6-8c46-9754a6d645c4',
         username: 'user',
         email: 'user@gmail.com',
         password:
