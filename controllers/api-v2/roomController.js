@@ -106,7 +106,7 @@ exports.playGame = async (req, res, next) => {
     if (player1Choices.length === 3) {
       res.status(400).json({
         status: 'fail',
-        message: 'Game Ended! Player has already picked 3 choices',
+        message: 'Game Ended! Player has already picked 3 choice',
       });
     }
 
@@ -141,7 +141,7 @@ exports.playGame = async (req, res, next) => {
     if (player2Choices.length === 3) {
       res.status(400).json({
         status: 'fail',
-        message: 'Game Ended! Player has already picked 3 choices',
+        message: 'Game Ended! Player has already picked 3 choice',
       });
     }
     if (!req.body.pick)

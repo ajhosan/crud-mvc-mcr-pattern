@@ -1,11 +1,9 @@
-// const User = require('../models/user');
 const { check, body, validationResult, Result } = require('express-validator');
 const { sequelize, User, User_biodata } = require('../../models');
 const bcrypt = require('bcrypt');
 
-// const Admin = require('../utils/admin');
 
-////////// USER SIGN UP //////////////
+// USER SIGN UP 
 exports.getUserSignUp = (req, res, next) => {
   res.render('layouts/signup', { title: 'Sign Up', style: 'login.css' });
 };
@@ -50,7 +48,7 @@ exports.postUserSignUp = (req, res, next) => {
   }
 };
 
-////////// USER LOGIN ////////////
+// USER LOGIN
 exports.getUserLogin = (req, res, next) => {
   const title = 'Login';
   const style = 'login.css';
@@ -95,7 +93,7 @@ exports.postUserLogin = async (req, res, next) => {
   }
 };
 
-//////////// USER INPUT BIODATA ///////////////
+// USER INPUT BIODATA
 exports.getUserBiodataInput = (req, res, next) => {
   const title = 'Fill in Biodata';
   const style = 'login.css';
@@ -120,7 +118,7 @@ exports.postUserBiodataInput = async (req, res, next) => {
     });
 };
 
-///////////////// ADMIN DASHBOARD ////////////////
+// ADMIN DASHBOARD
 exports.getAdminDashboard = (req, res, next) => {
   User.findAll()
     .then(users => {
