@@ -66,7 +66,7 @@ Penggunaan Type(MCR)
       {
       "room_id": "084b2efa-392c-4261-86f0-ac7fe899d0da", (Masukan sesuai ID ROOM)
       "userId": "06896bd4-8cbc-48c6-8c46-9364a6d939c4", (Masukan sesuai ID Player yang terdapat di table room)
-      "pick": "R" (memilih R = Rock, S = Gunting, P = Kertas)
+      "pick": "R" (memilih R = Batu, S = Gunting, P = Kertas)
       }
 
       Response:
